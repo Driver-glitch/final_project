@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var formData = new FormData(this);
 
         // Send form data via AJAX
-        fetch("your-server-endpoint", {
+        fetch("https://dreamy-licorice-4bab89.netlify.app", {
             method: "POST",
             body: formData
         })
